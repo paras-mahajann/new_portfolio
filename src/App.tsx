@@ -83,7 +83,7 @@ function App() {
         <div className="container mx-auto px-4 py-16">
           {/* Hero Section */}
           <section id="home" className={`min-h-[80vh] flex flex-col items-center justify-center text-center ${activeSection !== 'home' ? 'hidden' : ''}`}>
-            <p className="text-2xl text-emerald-400 mb-8 font-semibold">🙏 Namaste</p>
+  
             <Terminal className="w-16 h-16 text-emerald-400 mb-6 animate-pulse" />
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-blue-500">
