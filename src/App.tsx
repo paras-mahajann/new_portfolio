@@ -186,17 +186,17 @@ function App() {
           <section id="education" className={`py-20 ${activeSection !== 'education' ? 'hidden' : ''}`}>
             <SectionTitle icon={<BookOpen />} title="Education" />
             <div className="space-y-8">
-              <TimelineItem
+              {/* <TimelineItem
                 title="Master's in Computer Science"
                 company="Tech University"
                 period="2016 - 2018"
                 description="Specialized in Artificial Intelligence and Machine Learning"
-              />
+              />  */}
               <TimelineItem
                 title="Bachelor's in Computer Engineering"
-                company="Engineering College"
-                period="2012 - 2016"
-                description="First Class with Distinction"
+                company="R. C. Patel Institute of Technology"
+                period="2023 - 2027"
+                description="Studying in Second Year"
               />
             </div>
           </section>
