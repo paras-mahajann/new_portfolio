@@ -171,7 +171,7 @@ function App() {
                 title="Advanced Attendance System"
                 description="An intelligent attendance tracking system built with OpenCV and Python. Features include face detection, recognition, and automated attendance marking. The system uses deep learning models for accurate face recognition and maintains attendance records in a database."
                 tags={['Python', 'OpenCV', 'Deep Learning', 'MYSQl']}
-                image="src\images\attendancepython.jpeg"
+                image="dist\assets\images\attendancepython.jpeg"
               />
               {/* <ProjectCard
                 title="E-Commerce Platform"
