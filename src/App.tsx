@@ -92,21 +92,21 @@ function App() {
             </h1>
             <p className="text-2xl md:text-3xl text-gray-300 mb-8">Full Stack Developer</p>
             <div className="flex space-x-4 mb-12">
-              <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
+              <a href="https://github.com/paras-mahajann" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 <Github className="w-8 h-8" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
+              <a href="www.linkedin.com/in/paras-mahajan-developer" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 <Linkedin className="w-8 h-8" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">
+              <a href="mailto:mahajanparas912@gmail.com" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 <Mail className="w-8 h-8" />
               </a>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              <StatsCard icon={<Code2 />} title="Projects" value="50+" />
-              <StatsCard icon={<Coffee />} title="Coffee Cups" value="1000+" />
-              <StatsCard icon={<Brain />} title="Technologies" value="15+" />
-              <StatsCard icon={<Rocket />} title="Experience" value="5 Years" />
+              <StatsCard icon={<Code2 />} title="Projects" value="2" />
+              <StatsCard icon={<Coffee />} title="Coffee Cups" value="100+" />
+              <StatsCard icon={<Brain />} title="Technologies" value="7+" />
+              <StatsCard icon={<Rocket />} title="Learning Experience" value="2 Years" />
             </div>
           </section>
 
@@ -115,7 +115,7 @@ function App() {
             <SectionTitle icon={<User />} title="About Me" />
             <div className="max-w-3xl mx-auto">
               <p className="text-gray-300 text-lg leading-relaxed">
-                I am a passionate Full Stack Developer with expertise in building scalable web applications
+                I am a passionate Developer with expertise in building scalable web applications
                 and implementing cutting-edge technologies. With a strong foundation in both frontend and
                 backend development, I strive to create elegant solutions to complex problems.
               </p>
@@ -127,10 +127,10 @@ function App() {
             <SectionTitle icon={<Brain />} title="Skills" />
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {[
-                { category: 'Frontend', skills: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js'] },
+                { category: 'Frontend', skills: ['React', 'TKinter', 'Tailwind CSS', 'React-Native'] },
                 { category: 'Backend', skills: ['Node.js', 'Python', 'Django', 'FastAPI'] },
-                { category: 'Database', skills: ['PostgreSQL', 'MongoDB', 'Redis'] },
-                { category: 'DevOps', skills: ['Docker', 'AWS', 'CI/CD', 'Git'] },
+                { category: 'Database', skills: ['PostgreSQL', 'MongoDB', 'Mysql'] },
+                { category: 'DevOps', skills: ['Docker', 'AWS', 'Git'] },
               ].map((group) => (
                 <div key={group.category} className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-gray-700">
                   <h3 className="text-emerald-400 font-semibold mb-4">{group.category}</h3>
@@ -148,7 +148,7 @@ function App() {
           <section id="experience" className={`py-20 ${activeSection !== 'experience' ? 'hidden' : ''}`}>
             <SectionTitle icon={<Briefcase />} title="Experience" />
             <div className="space-y-8">
-              <TimelineItem
+              {/* <TimelineItem
                 title="Senior Full Stack Developer"
                 company="Tech Corp"
                 period="2020 - Present"
@@ -159,7 +159,7 @@ function App() {
                 company="StartUp Inc"
                 period="2018 - 2020"
                 description="Developed and maintained multiple web applications using React and Node.js."
-              />
+              /> */}
             </div>
           </section>
 
@@ -170,15 +170,15 @@ function App() {
               <ProjectCard
                 title="Advanced Attendance System"
                 description="An intelligent attendance tracking system built with OpenCV and Python. Features include face detection, recognition, and automated attendance marking. The system uses deep learning models for accurate face recognition and maintains attendance records in a database."
-                tags={['Python', 'OpenCV', 'Deep Learning', 'SQLite']}
-                image="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+                tags={['Python', 'OpenCV', 'Deep Learning', 'MYSQl']}
+                image="src\images\attendancepython.jpeg"
               />
-              <ProjectCard
+              {/* <ProjectCard
                 title="E-Commerce Platform"
                 description="Full-featured e-commerce platform with real-time inventory management."
                 tags={['React', 'Node.js', 'MongoDB']}
                 image="https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
-              />
+              /> */}
             </div>
           </section>
 
