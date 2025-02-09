@@ -95,7 +95,7 @@ function App() {
               <a href="https://github.com/paras-mahajann" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 <Github className="w-8 h-8" />
               </a>
-              <a href="www.linkedin.com/in/paras-mahajan-developer" className="text-gray-300 hover:text-emerald-400 transition-colors">
+              <a href="https://www.linkedin.com/in/paras-mahajan-developer/" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 <Linkedin className="w-8 h-8" />
               </a>
               <a href="mailto:mahajanparas912@gmail.com" className="text-gray-300 hover:text-emerald-400 transition-colors">
